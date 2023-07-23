@@ -7,10 +7,19 @@
   color: #0b4237;
   box-sizing: border-box;
 }
+
+.blockquote-bordered {
+  border-left-width: 10px;
+}
+
 .quote-text {
   font-family: 'Gelasio', serif;
   font-style: italic;
   font-size: 1.15em;
   line-height: 1.5;
   margin: 0;
+}
+
+.quote-text:not(:last-child) {
+  margin-bottom: 1em;
 }
