@@ -1,9 +1,14 @@
+#quote-div {
+  width: 500px;
+  height: 300px;
+}
+
 .blockquote {
-  max-width: 600px;
+  max-width: 400px;
   margin: 10px 30px;
   padding: 25px;
   background-color: #f8fffe;
-  border: 1px solid #b0d2cb;
+  border: 5px solid #b0d2cb;
   color: #0b4237;
   box-sizing: border-box;
 }

@@ -1,21 +1,30 @@
 <!DOCTYPE html>
-<head>
-  <title>Quote Pic Generator</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="./quote.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+<html>
+  <head>
+    <title>Quote Pic Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./quote.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-</head>
+  </head>
 
-<body>
-  <blockquote class="blockquote blockquote-bordered">
-    <p class="quote-text">
-      Whenever you feel like criticizing any one," he told me, " just remember that all the people in this world haven't had the advantages that you've had.
-    </p>
-    <p class="quote-text quote-credit">
-      F. Scott Fitzgerald
-    </p>
-  </blockquote>
-</body>
+  <body>
+    <div id="quote-div">
+      <blockquote class="blockquote blockquote-bordered">
+        <p class="quote-text">
+          Whenever you feel like criticizing any one," he told me, " just remember that all the people in this world haven't had the advantages that you've had.
+        </p>
+        <p class="quote-text quote-credit">
+          F. Scott Fitzgerald
+        </p>
+      </blockquote>
+    </div>
+    <button id="capture-button">Capture</button>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js" integrity="sha512-csNcFYJniKjJxRWRV1R7fvnXrycHP6qDR21mgz1ZP55xY5d+aHLfo9/FcGDQLfn2IfngbAHd8LdfsagcCqgTcQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js" integrity="sha512-01CJ9/g7e8cUmY0DFTMcUw/ikS799FHiOA0eyHsUWfOetgbx/t6oV4otQ5zXKQyIrQGTHSmRVPIgrgLcZi/WMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./script.js"></script>
+</html>
