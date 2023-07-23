@@ -1,10 +1,7 @@
-#quote-div {
-  width: 500px;
-  height: 300px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;700&display=swap');
 
 .blockquote {
-  max-width: 400px;
+  max-width: 600px;
   margin: 10px 30px;
   padding: 25px;
   background-color: #f8fffe;
@@ -30,7 +27,7 @@
   font-family: 'Gelasio', serif;
   font-style: italic;
   font-size: 1.15em;
-  line-height: 1.5;
+  line-height: 1.2;
   margin: 0;
 }
 
@@ -46,4 +43,53 @@
 
 .quote-credit::before {
   content: "\2014\0020";
+}
+
+.cn-blockquote {
+  max-width: 600px;
+  margin: 10px 30px;
+  padding: 25px;
+  background-color: #083049;
+  border: 1cap solid #bae7fd;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+.cn-blockquote::before {
+  content: "\201d";
+  font-size: 200px;
+  color: #e0f2fe;
+  display: block;
+  margin-bottom: -180px;
+  margin-top: -20px;
+  text-align: right;
+}
+
+.cn-quote-text {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 2em;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.trivia {
+  text-align: right;
+}
+.credit {
+  font-style: bold;
+  color: #39bff7;
+  font-size: 1.5em;
+}
+
+.credit::before {
+  content: "\2014\2014\0020";
+}
+
+.bg-text {
+  font-size: 0.9em;
+}
+
+.topic {
+  color: #bae7fd;
+  font-size: 1em;
 }
