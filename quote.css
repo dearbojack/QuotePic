@@ -23,3 +23,13 @@
 .quote-text:not(:last-child) {
   margin-bottom: 1em;
 }
+
+.quote-credit {
+  font-weight: bold;
+  font-style: normal;
+  text-align: right;
+}
+
+.quote-credit::before {
+  content: "\2014\0020";
+}
