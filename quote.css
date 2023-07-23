@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;700&family=ZCOOL+KuaiLe&display=swap');
 
 .blockquote {
   max-width: 600px;
@@ -45,11 +45,15 @@
   content: "\2014\0020";
 }
 
+.cn-quote-div {
+  width: 600px;
+}
 .cn-blockquote {
-  max-width: 600px;
+  width: 600px;
+  /* max-width: 600px; */
   margin: 10px 30px;
   padding: 25px;
-  background-color: #083049;
+  background-color: #508cb2;
   border: 1cap solid #bae7fd;
   color: #ffffff;
   box-sizing: border-box;
@@ -74,22 +78,26 @@
 
 .trivia {
   text-align: right;
+  margin: 5px;
 }
 .credit {
   font-style: bold;
-  color: #39bff7;
+  color: #ecedf3;
   font-size: 1.5em;
 }
 
 .credit::before {
   content: "\2014\2014\0020";
+  color: #7db0d0;
 }
 
 .bg-text {
   font-size: 0.9em;
+  color: #cde0e8;
 }
 
 .topic {
-  color: #bae7fd;
-  font-size: 1em;
+  color: #7db0d0;
+  font-size: 1.5em;
+  font-family: 'ZCOOL KuaiLe', sans-serif;
 }
