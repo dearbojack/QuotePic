@@ -12,6 +12,15 @@
   border-left-width: 10px;
 }
 
+.blockquote::before {
+  content: "\201c";
+  font-size: 100px;
+  color: #889d99;
+  display: block;
+  margin-bottom: -50px;
+  margin-top: -20px;
+}
+
 .quote-text {
   font-family: 'Gelasio', serif;
   font-style: italic;
