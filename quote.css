@@ -7,3 +7,10 @@
   color: #0b4237;
   box-sizing: border-box;
 }
+.quote-text {
+  font-family: 'Gelasio', serif;
+  font-style: italic;
+  font-size: 1.15em;
+  line-height: 1.5;
+  margin: 0;
+}
